@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" media="all" />
+    <title>Arun Narayan Nair - Bringing visions to life</title>
+    <link rel="icon" href="brief3.png" type="img/png" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="main-container container-fluid">
+        <nav>
+          <img class="img-logo" src="Arun_logo3.gif" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service-ta">Services</a></li>
+            <li><a href="#port-folio">Folio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="main-section">
+          <span id="mern">Web Developer&nbsp;Mern Stack</span>
+          <h1>Hi, I'm <span>Arun Narayan Nair</span><br>from India</h1>
+        </div>
+      </div>
+    </div>
+    <!------------ about ------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="aboutcol-1">
+              <img src="Bio.jpg" alt="My Folio" />
+            </div>
+            <div class="aboutcol-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Hi all, I am Arun Narayan Nair from India, I reside in Ernakulam
+                Kerala,looking for newer projects to work with in the web
+                development field. I am an Web Enthusiast passionate in working
+                within the mentioned field,from the early chilhood I was eager
+                to work with computers and undoubtly my craze opened doors to
+                this amazing oppurtunity of becoming a web-developer by
+                profession and creating exciting and awesome designs for you all
+                people.
+              </p>
+              <div class="title-tabs">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Web Designing</span><br />Web Designing / Database
+                    Management
+                  </li>
+                  <li>
+                    <span>Oracle Database Management</span
+                    ><br />SQLDBMS/Database Management
+                  </li>
+                  <li><span>MSSQL SERVER</span><br />Dealing with Databases</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>2016-2018</span><br />Web Designing/Database
+                    Management
+                  </li>
+                  <li>
+                    <span>
+                      2013-2016 Worked as RMAN BKP
+                      Associate&nbsp;&rarr;&nbsp;performed Hotline BKP COLD BKP
+                      Fresher by Exp.</span
+                    ><br />SQLDBMS/Database Management
+                  </li>
+                  <li><span>2017-2018 </span><br />Dealing with Databases</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>B.C.A</span><br />Computer Applications</li>
+                  <li>
+                    <span>Oracle Certified Associate</span><br />SQLDBMS /
+                    Database Management
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------services tab--------------------------------------->
+    <div id="service-ta">
+      <div class="container-main">
+        <h1 class="sub-title">My Services</h1>
+        <div class="list-serv">
+          <div>
+            <i class="fa-solid fa-code fa-lg"></i>
+            <h2>Web Designing</h2>
+            <p>
+              Services include website designing which includes providing proper
+              HTML structure styling by using advanced frameworks such as
+              talewind bootstrap etc. providing services as per clients
+              convenince as I genuinely like to work with newer and newer
+              projects and like to explore the unique hidden facts and easily
+              adapt to newer technologies very well.
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-server fa-lg"></i>
+            <h2>Database Administration</h2>
+            <p>
+              providing services of Database Management which includes Backup
+              services, running scheduled maintenance of all kinds of database
+              accomplishing services as per the requirements demanded by the
+              clients. Familiar with many databases which include Oracle
+              databases, MSSQL Server etc.
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe fa-lg"></i>
+            <h2>Web Architect</h2>
+            <p>
+              As Web Architect by profession, I take the responsibility of
+              properly designing a websites as per the relevant structure of web
+              applications and systems This typically involves a combination of
+              technical skills strategic planning,understanding both
+              perspectives one that of an end-user and other is of the
+              enteprenur requirements. Key responsibilities may include System
+              Design , technology selection , integration, optimization of
+              performance, Security considerations effective implementation of
+              websites and the least include the documention of the implemented
+              tasks.
+            </p>
+            <a href="">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------My Work-------------------------->
+  <div id="port-folio">
+    <div class="container">
+      <h1>My Folio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Web-design.jpg" alt="Web-design">
+          <div class="layer">
+            <h3>Our 24/7 Support App</h3>
+            <p> This app lets you to connect with our expert team of Web
+              designers who are ready to provide their assistance to their
+              valuable clients. Download it from the play store
+              </p>
+            <a href="" alt=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="DBMS2.jpg" alt="database Management">
+          <div class="layer">
+            <h3>Database Administration</h3>
+            <p>You as our clients, can keep an eye on the data being inputed to
+              your workspace systems with our My DBMS Tracker App. Now data is
+              on your finger tips. Download it from the play store
+              </p>
+            <a href="" alt=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="WE.png" alt="Web Architect">
+          <div class="layer">
+            <h3> Web Architect</h3>
+            <p>Specially keeping in mind all the enteprenur requirements our
+              team is implementing several mid-cost website that falls under
+              the mid-range of our products with no comprise in quality
+              rendering of awesome website designs.
+              </p>
+            <a href="" alt=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="">see more</a>
+    </div>
+  </div>
+
+
+  <!--------------------------------------------------------------------------contact-info------------------------------------------->
+    <div id="contact">
+      <div class="container-con">
+        <div class="row">
+          <div class="cont-left">
+            <h1>Contact Me</h1>
+            
+            <p><i class="fa-solid fa-paper-plane"></i>arunnair14@yahoo.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>9136329876</p>
+            <div class="social-media">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a target="_blank" href="https://x.com/ArunNarayanWeb9"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/arun-narayanan-nair-a770b062/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a target="_blank" href="arun_resume3.doc" download class="btn btn2">Download CV</a>
+          </div>
+        <div class="cont-right">
+          <form action="">
+            <input type="text" name="Name" placeholder="Your Name" required autocomplete="off">
+            <input type="email" name="email" placeholder="your Email" required autocomplete="on">
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="btn btn2" type="submit">Submit</button>
+          </form>
+          <div>
+          </div>
+        </div>
+
+        </div>
+        <div class="copyright">
+         <p class="para">Copyright&nbsp;&copy;&nbsp;JNAInfotech Made with <i class="fa-solid fa-microchip"></i><span>&nbsp;by AKN</span></p> 
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/0ad6f7de72.js" crossorigin="anonymous"></script>
+<script>
+var sidemeu = document.getElementById("sidemenu");  
+function openmenu(){
+  sidemeu.style.left="0";
+}
+function closemenu(){
+  sidemeu.style.left="-200px";
+}
+
+</script>
+  </body>
+</html>
